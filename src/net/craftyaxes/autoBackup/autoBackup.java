@@ -11,16 +11,12 @@ import org.spongepowered.api.event.game.state.GamePreInitializationEvent;
 import org.spongepowered.api.event.game.state.GameStartedServerEvent;
 import org.spongepowered.api.plugin.Plugin;
 import org.spongepowered.api.Sponge;
-import org.spongepowered.api.scheduler.Scheduler;
 import org.spongepowered.api.text.Text;
 import org.spongepowered.api.command.spec.CommandSpec;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 @Plugin(id = "autobackup", name = "AutoBackup", version = "0.1", description = "Takes backup of the whole minecraft server directory")
